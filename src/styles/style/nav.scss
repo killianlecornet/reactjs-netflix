@@ -1,0 +1,118 @@
+.header {
+    color: white;
+    object-fit: contain;
+    height: 850px;
+    width: 100%;
+  }
+  .header__contents {
+    margin-left: 30px;
+    padding-top: 18%;
+    height: 70%;
+  }
+  .header__title {
+    font-size: 5rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+  }
+  .header__description {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 18px;
+    max-width: 38%;
+    height: 80px;
+  }
+  .header__btn{
+    margin-top: 5%;
+  }
+  .btn {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    font-weight: 1000;
+    border-radius: 3px;
+    margin-right: 1rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    width: 13%;
+    height: 50px;
+    font-size: 135%;
+    
+    &__color{
+      &-grey{
+        background-color: rgba(51, 51, 51, 0.658);
+        &:hover{
+          background-color: #3a38388e;
+          transition: all 0.3s;
+        }
+      }
+    }
+    &__color{
+      &-white{
+        background-color: white;
+        color: black;
+        &:hover{
+          color: #000;
+          background-color: #e6e6e6ee;
+          transition: all 0.3s;
+        }
+      }
+    }
+  
+  }
+
+  .header__fadeBottom {
+    height: 7.5rem;
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, 0.61),
+      #111
+    );
+  }
+  .header__description {
+    font-size: 16px;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 30px;
+    z-index: 2;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+    input{
+      padding-right: 6%;
+      margin-right: 5%;
+    }
+  }
+  .nav__logo {
+    width: 80px;
+    position: fixed;
+    left: 20px;
+    object-fit: contain;
+    cursor: pointer;
+  }
+  .nav__avatar {
+    width: 30px;
+    object-fit: contain;
+    position: fixed;
+    right: 20px;
+  }
+  .nav__black {
+    background-color: #111;
+  }
+  .nav__title{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    color: white;
+    li {
+        margin-left: 50%;
+        cursor: pointer;
+    }
+  }
+  
